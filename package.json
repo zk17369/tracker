@@ -7,10 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "tracker",
+    "前端监控",
+    "数据埋点"
+  ],
   "author": "zukang",
   "license": "ISC",
-  "description": "",
+  "description": "一个轻量级前端埋点监控上报 sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zk17369/tracker.git"
+  },
   "devDependencies": {
     "rollup": "^4.21.2",
     "rollup-plugin-dts": "^6.1.1",
